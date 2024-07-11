@@ -1,0 +1,14 @@
+测试内容：
+
+推送本地仓库的内容到GitHub仓库
+  现在，我们根据GitHub的提示，在本地的D:\Projects\gittest仓库下运行命令：
+
+$ git remote add origin git@github.com:mango3y/gittest.git
+1
+  注意：把上面的xxxx替换成你自己的GitHub账户名
+  下一步，就是把本地库的所有内容推送到远程库上：
+
+$ git push -u origin main
+1
+  注：这里如果你安装时主干选择master，把main换成master。
+  这样就可以在GitHub上看到我们上传的文件啦！
